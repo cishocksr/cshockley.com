@@ -9,7 +9,7 @@ import { Button } from "./ui/button";
 
 const Nav = () => {
     return (
-        <nav className="mx-auto flex w-full max-w-8xl items-center justify-around pb-10 pt-[3.25rem]">
+        <nav className="flex items-center justify-around w-full pb-10 mx-auto max-w-8xl pt-[3.25rem]"> {/* Combined pt-[3.25rem] */}
             {/* Left Section: Logo Button linking to home */}
             <Link href="/"> {/* Wrap the button with Link */}
                 <Button variant="outline" size="icon" className="flex items-center justify-center" >

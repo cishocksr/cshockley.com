@@ -32,14 +32,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="flex flex-col items-center justify-center mx-auto mt-2 mb-20 antialiased lg:mt-8 lg:mb-40">
+      <body className="min-h-screen bg-white dark:bg-black">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex-auto min-w-0 mt-2 md:mt-6 flex flex-col px-6 sm:px-4 md:px-0 max-w-[630px] w-full">
+          <div className="flex flex-col items-center max-w-[750px] min-h-screen mx-auto"> {/* Added mx-auto */}
             <Nav />
             <main className="flex-1">
               {children}
