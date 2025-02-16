@@ -6,6 +6,7 @@ import navLinks from "@/config/nav-links";
 import siteMetadata from "@/config/metadata";
 import DarkMode from "./dark-button";
 import { Button } from "./ui/button";
+import MobileNav from "./mobile-nav";
 
 const Nav = () => {
     return (
@@ -34,6 +35,8 @@ const Nav = () => {
             <div className="ml-0 hidden min-[700px]:block">
                 <DarkMode />
             </div>
+
+            <MobileNav />
         </nav>
     );
 };
