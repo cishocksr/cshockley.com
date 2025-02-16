@@ -7,15 +7,19 @@ import Marquee from "react-fast-marquee";
 
 
 const techStack = [
-    "/images/tech-stack/next.svg",
-    "/images/tech-stack/styled-components.svg",
-    "/images/tech-stack/reactjs-icon.svg",
-    "/images/tech-stack/tailwindcss-icon.svg",
-    "/images/tech-stack/javascript.svg",
+    "/images/tech-stack/bun-icon.svg",
+    "/images/tech-stack/csharp-icon.svg",
     "/images/tech-stack/docker-icon.svg",
     "/images/tech-stack/figma-icon.svg",
-    "/images/tech-stack/typescriptlang-icon.svg",
-    "/images/tech-stack/python-icon.svg",
+    "/images/tech-stack/git-icon.svg",
+    "/images/tech-stack/github.svg",
+    "/images/tech-stack/next.svg",
+    "/images/tech-stack/styled-components.svg",
+    "/images/tech-stack/react.svg",
+    "/images/tech-stack/tailwind.svg",
+    "/images/tech-stack/javascript.svg",
+    "/images/tech-stack/typescript.svg",
+    "/images/tech-stack/python.svg",
 ];
 
 

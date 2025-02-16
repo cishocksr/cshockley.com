@@ -19,7 +19,7 @@ const DarkMode = () => {
         >
             {clientLoaded && (
                 <div className="relative size-8">
-                    {theme === "dark" ? <LightIcon /> : <DarkIcon />} {/* Conditional rendering */}
+                    {theme === "dark" ? <LightIcon /> : <DarkIcon />}
                 </div>
             )}
         </Button>
