@@ -1,3 +1,5 @@
+import { DevIconTypes } from "@/components/icons/dev-icons";
+
 export interface ProjectData {
     title: string;
     description: string;
@@ -6,7 +8,7 @@ export interface ProjectData {
         title: string;
         href: string;
     }[];
-    icons: string[];
+    icons: DevIconTypes[];
 }
 
 const projectsData: ProjectData[] = [
@@ -23,7 +25,7 @@ const projectsData: ProjectData[] = [
     {
         title: "Pathfinder",
         description:
-            "A OpenAI powered chat application with access to realtime F1 data. You can ask about events of the race, conditions and even transcribe radio messages. Uses Vercel Generative UI to reply with components for a better user experience.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsum laborum tempora doloribus fugit eius ad, consequuntur harum magnam, recusandae tempore cum soluta dolorum cumque nisi ipsam beatae qui aperiam.",
         titleLink: "https://pathfinder-ecru.vercel.app",
         links: [
             {
@@ -31,7 +33,7 @@ const projectsData: ProjectData[] = [
                 href: "https://github.com/cishocksr/pathfinder",
             },
         ],
-        icons: ["react", "typescript"],
+        icons: ["react"],
     },
 ]
 

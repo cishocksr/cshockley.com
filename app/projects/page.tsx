@@ -1,11 +1,14 @@
-import { CardDemo } from "@/components/project-card"
+import ProjectCard from "@/components/project-card"
 import projectsData from "@/content/projects"
 
 
 
+
+
 export const metadata = {
-    title: "About",
-    description: `My projects page, where I showcase some of my software engineering projects. From building web apps with TypeScript and react to developing Java plugins for game, my projects demonstrate my diverse skill set and experience. Explore my work work and get a glimpse into my passion for problem-solving and creativity in the rapidly changing field of technology.`,
+    title: "Projects",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt, nam, modi, placeat magni minima quas in cumque expedita dolores quisquam. Itaque eaque perferendis, distinctio amet nulla laudantium sit veritatis.
+`,
 }
 
 export default async function Projects() {
@@ -16,12 +19,7 @@ export default async function Projects() {
                     Projects
                 </h1>
                 <p className="text-lg leading-7 text-gray-700 dark:text-gray-400">
-                    Welcome to my projects page, where I showcase some of my software
-                    engineering projects. From building web apps with TypeScript and react
-                    to developing Java plugins for game, my projects demonstrate my
-                    diverse skill set and experience. Explore my work work and get a
-                    glimpse into my passion for problem-solving and creativity in the
-                    rapidly changing field of technology.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsum laborum tempora doloribus fugit eius ad, consequuntur harum magnam, recusandae tempore cum soluta dolorum cumque nisi ipsam beatae qui aperiam.
                 </p>
             </div>
             <div className="pt-12 ">
