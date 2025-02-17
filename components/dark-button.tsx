@@ -9,7 +9,11 @@ const DarkMode = () => {
     const [clientLoaded, setClientLoaded] = useState(false);
     const { theme, setTheme, resolvedTheme } = useTheme();
 
-    useEffect(() => setClientLoaded(true),);
+
+    useEffect(() => {
+        setClientLoaded(true)
+    }, [])
+
 
     return (
         <Button

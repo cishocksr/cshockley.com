@@ -1,8 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { motion } from "framer-motion";
 import Marquee from "react-fast-marquee";
 
 
@@ -30,7 +28,7 @@ const TechStackMarquee = () => {
         <Marquee className="bg-slate-900 dark:bg-[#0d1424] h-48 md:h-64 2xl:h-80 mt-10 flex items-center overflow-x-hidden">
             {techStack.map((icon) => (
                 <div key={icon} className="px-6">
-                    <img src={icon} alt="" height={60} width={60} />
+                    <Image src={icon} alt="" height={60} width={60} />
                 </div>
             ))}
         </Marquee>
