@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import Image, { ImageProps } from "next/image";
 
 export const MainLogo = (props: Partial<ImageProps>) => (
@@ -13,7 +14,10 @@ export const MainLogo = (props: Partial<ImageProps>) => (
 
 export const LightIcon = ({ className }: { className?: string }) => (
     <span
-        className="absolute inset-0 flex items-center justify-center transition duration-1000 rotate-90 top-1 motion-reduce:duration-0 dark:rotate-0"
+        className={cn(
+            "absolute inset-0 flex items-center justify-center transition duration-1000 rotate-90 top-1 motion-reduce:duration-0 dark:rotate-0",
+            className // Apply className here
+        )}
         style={{ transformOrigin: "50% 100px" }}
     >
         <svg
@@ -35,7 +39,10 @@ export const LightIcon = ({ className }: { className?: string }) => (
 
 export const DarkIcon = ({ className }: { className?: string }) => (
     <span
-        className="absolute inset-0 flex items-center justify-center transition duration-1000 rotate-0 top-1 motion-reduce:duration-0 dark:-rotate-90"
+        className={cn(
+            "absolute inset-0 flex items-center justify-center transition duration-1000 rotate-90 top-1 motion-reduce:duration-0 dark:rotate-0",
+            className // Apply className here
+        )}
         style={{ transformOrigin: "50% 100px" }}
     >
         <svg

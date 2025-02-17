@@ -5,7 +5,7 @@ import { useTheme } from "next-themes";
 import { Button } from "./ui/button";
 import { LightIcon, DarkIcon } from "./icons/logos";
 
-export const DarkModeButton = () => {
+const DarkModeButton = () => {
     const [clientLoaded, setClientLoaded] = useState(false);
     const { setTheme, theme, resolvedTheme } = useTheme();
 
@@ -25,3 +25,5 @@ export const DarkModeButton = () => {
         </Button>
     );
 };
+
+export default DarkModeButton;
