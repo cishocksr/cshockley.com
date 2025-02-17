@@ -13,10 +13,10 @@ const navLinks = [
         title: "Projects",
         href: "/projects",
     },
-    {
-        title: "Blog",
-        href: "/blog",
-    },
+    // {
+    //     title: "Blog",
+    //     href: "/blog",
+    // },
 ];
 
 export default navLinks;
