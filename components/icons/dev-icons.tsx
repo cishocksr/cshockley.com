@@ -13,7 +13,7 @@ export type DevIconTypes =
   | "npm-icon"
   | "python"
   | "react"
-  | "tailwindcss"
+  | "tailwind"
   | "typescript"
 
 
