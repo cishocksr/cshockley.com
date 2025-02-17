@@ -6,11 +6,15 @@ export const Button = ({
     children,
     className,
     onClick,
+    variant,
+    size,
 }: {
     children?: React.ReactNode;
     className?: string;
     href?: string;
     onClick?: () => void;
+    variant?: "outline" | "default";
+    size?: "icon" | "default";
 }) => {
     return (
         <div
