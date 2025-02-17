@@ -11,7 +11,7 @@ const Nav = () => {
     return (
         <nav className="flex items-center justify-around w-full pb-10 mx-auto max-w-8xl pt-[3.25rem]">
             <Link href="/">
-                <Button variant="outline" size="icon" className="flex items-center justify-center" >
+                <Button className="flex items-center justify-center" >
                     <MainLogo className="dark:invert" />
                 </Button>
             </Link>
